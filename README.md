@@ -18,37 +18,35 @@
 
 ###  Giới Thiệu
 
-**Bộ KIT Học Tập Arduino I2C BLK** là bộ công cụ thực hành được xây dựng trên nền tảng vi điều khiển **Arduino Nano (ATmega328P)**, tập trung chuyên sâu vào giao thức giao tiếp **I2C (Inter-Integrated Circuit)**. Bộ KIT được thiết kế dành cho người dùng đã nắm vững kiến thức lập trình Arduino nền tảng (GPIO, ngắt, giao tiếp UART/Serial cơ bản) và có nhu cầu tiếp cận các giao thức giao tiếp đồng bộ đa thiết bị (multi-device synchronous bus) trong các dự án hệ thống nhúng.
+- **Bộ KIT Học Tập Arduino I2C BLK** là bộ công cụ thực hành được xây dựng trên nền tảng vi điều khiển **Arduino Nano (ATmega328P)**, tập trung chuyên sâu vào giao thức giao tiếp **I2C (Inter-Integrated Circuit)**. 
+- Bộ KIT được thiết kế dành cho người dùng *đã nắm vững kiến thức lập trình Arduino nền tảng* (GPIO, ngắt, giao tiếp UART/Serial cơ bản) và có nhu cầu tiếp cận các giao thức giao tiếp đồng bộ đa thiết bị (multi-device synchronous bus) trong các dự án hệ thống nhúng.
 
 <p align="center"> <img src="https://raw.githubusercontent.com/theduong6168/BLKLab/refs/heads/main/image/BO_KIT_I2C.png"  width="500"/> </p>
 
+- **Kết nối đơn giản, mở rộng dễ dàng:**
+    - Chỉ cần 2 dây tín hiệu (SDA, SCL) để kết nối nhiều thiết bị trên cùng một bus.
+    - Chuẩn 4 chân thống nhất (VCC – GND – SDA – SCL) cho toàn bộ module.
+    - Ghép nối tiếp (daisy-chain) linh hoạt, không cần thay đổi mạch khi mở rộng.
 ```text
-🔴 VCC  (+5V)
-⚫ GND  (0V)
-🟡 SDA  (Data)
-🔵 SCL  (Clock)
+    🔴 VCC  (+5V)
+    ⚫ GND  (0V)
+    🟡 SDA  (Data)
+    🔵 SCL  (Clock)
 ```
+- **Học qua dự án thực hành trực quan:**
+    - Chuỗi dự án mới, được thiết kế riêng để làm quen từng module cảm biến.
+    - Vừa học vừa thấy kết quả ngay khi lắp ráp và chạy thử.
+    - Từ giao tiếp một cảm biến đơn đến phối hợp nhiều cảm biến trên cùng một bus.
 
 
-<font color="blue">Chữ màu xanh</font>
 
-**Bộ KIT phù hợp với:**
-- Học sinh, sinh viên ngành kỹ thuật.
-- Người đã học Arduino và muốn tìm hiểu sâu về giao tiếp I2C.
-- Giáo viên, trung tâm đào tạo STEM.
-- Người yêu thích chế tạo, DIY và nghiên cứu sản phẩm thông minh.
-<img src="https://raw.githubusercontent.com/theduong6168/BLKLab/refs/heads/main/image/BO_KIT_I2C.png"  width="500"/>
 
-###  Mục Tiêu Của Bộ KIT
-
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Lập trình thành thạo với Arduino Nano.
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Hiểu nguyên lý và sử dụng giao tiếp I2C.
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Trải nghiệm thao tác kết nối phần cứng đơn giản thông qua giao thức I2C
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Học thêm các module mới thông qua các PRJ trực quan
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Xây dựng giao diện OLED chuyên nghiệp.
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Thiết kế hệ thống menu bằng Rotary Encoder.
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Kết hợp cảm biến và cơ cấu chấp hành.
-- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Phát triển sản phẩm STEM thực tế.
+| Đối tượng khách hàng | Vấn đề gặp phải | Giải pháp từ bộ KIT |
+|---|---|---|
+| Đã có nền tảng lập trình Arduino, muốn nâng cao kỹ năng | Chưa biết cách tiếp cận module/cảm biến mới một cách hệ thống | Cung cấp các PRJ trực quan, thực hành theo từng module cụ thể |
+| Từng làm dự án với nhiều cảm biến đơn lẻ | Đấu dây phức tạp, nhiều chân, dễ nhầm lẫn khi mở rộng | Chuẩn kết nối 4 dây I2C, đấu nối đơn giản, dễ mở rộng |
+| Muốn ghép nhiều cảm biến trong cùng một dự án | Thiếu chân GPIO, khó quản lý nhiều thiết bị cùng lúc | Giao thức I2C cho phép nhiều cảm biến dùng chung 1 bus (SDA/SCL) |
+| Định hướng phát triển dự án cá nhân/học thuật nâng cao | Thiếu nền tảng vững chắc về giao tiếp bus trước khi làm hệ thống phức tạp | Lộ trình PRJ từ cơ bản đến nâng cao, xây dựng tư duy hệ thống I2C |
 
 ### Các Dự Án Thực Hành
 
@@ -64,14 +62,14 @@
 
 ###  Sau Khi Hoàn Thành Bộ KIT
 
-Người học sẽ có thể:
-
-- Thành thạo Arduino IDE.
-- Hiểu sâu giao tiếp I2C.
-- Thiết kế giao diện OLED.
-- Lưu dữ liệu bằng EEPROM.
-- Xây dựng hệ thống menu chuyên nghiệp.
-- Tự phát triển sản phẩm STEM của riêng mình.
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Lập trình thành thạo với Arduino Nano.
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Hiểu nguyên lý và sử dụng giao tiếp I2C.
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Trải nghiệm thao tác kết nối phần cứng đơn giản thông qua giao thức I2C
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Học thêm các module mới thông qua các PRJ trực quan
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Xây dựng giao diện OLED chuyên nghiệp.
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Thiết kế hệ thống menu bằng Rotary Encoder.
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Kết hợp cảm biến và cơ cấu chấp hành.
+- <img src="https://img.icons8.com/?size=100&id=pIPl8tqh3igN&format=png&color=000000"  width="20"/> Phát triển sản phẩm STEM thực tế.
 
 ---
 
