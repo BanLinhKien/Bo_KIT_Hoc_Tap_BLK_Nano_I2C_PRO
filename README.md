@@ -1,10 +1,10 @@
 
-# <p align="center">  Bộ KIT Học Tập Arduino I2C BLK   </p>
+# <p align="center">  Bộ KIT Học Tập Arduino I2C PRO BLK   </p>
 
 ###  Giới Thiệu
 
-- **Bộ KIT Học Tập Arduino I2C BLK** là bộ công cụ thực hành được xây dựng trên nền tảng vi điều khiển **Arduino Nano (ATmega328P)**, tập trung chuyên sâu vào giao thức giao tiếp **I2C (Inter-Integrated Circuit)**. 
-- Bộ KIT được thiết kế dành cho người dùng *đã nắm vững kiến thức lập trình Arduino nền tảng* như GPIO, Timer, PWM, ADC, ngắt (Interrupt) và giao tiếp UART/Serial cơ bản. Nếu bạn chưa có những kiến thức này, chúng tôi khuyến nghị bắt đầu với [Bộ KIT Học Tập Arduino Uno R3 BLK Plus](https://banlinhkien.com/bo-kit-hoc-tap-arduino-uno-r3-blk-plus-p38419270.html) để xây dựng nền tảng trước khi tiếp cận bộ KIT này. Trên cơ sở đó, **Bộ KIT Học Tập Arduino I2C BLK** sẽ giúp bạn làm chủ giao thức giao tiếp I2C, kết nối đồng thời nhiều thiết bị trên cùng một bus truyền thông và phát triển các dự án hệ thống nhúng có tính thực tiễn cao.
+- **Bộ KIT Học Tập Arduino I2C PRO BLK** là bộ công cụ thực hành được xây dựng trên nền tảng vi điều khiển **Arduino Nano (ATmega328P)**, tập trung chuyên sâu vào giao thức giao tiếp **I2C (Inter-Integrated Circuit)**. 
+- Bộ KIT được thiết kế dành cho người dùng *đã nắm vững kiến thức lập trình Arduino nền tảng* như GPIO, Timer, PWM, ADC, ngắt (Interrupt) và giao tiếp UART/Serial cơ bản. Nếu bạn chưa có những kiến thức này, chúng tôi khuyến nghị bắt đầu với [Bộ KIT Học Tập Arduino Uno R3 BLK Plus](https://banlinhkien.com/bo-kit-hoc-tap-arduino-uno-r3-blk-plus-p38419270.html) để xây dựng nền tảng trước khi tiếp cận bộ KIT này. Trên cơ sở đó, **Bộ KIT Học Tập Arduino I2C PRO BLK** sẽ giúp bạn làm chủ giao thức giao tiếp I2C, kết nối đồng thời nhiều thiết bị trên cùng một bus truyền thông và phát triển các dự án hệ thống nhúng có tính thực tiễn cao.
 
 <p align="center"> <img src="https://raw.githubusercontent.com/theduong6168/BLKLab/refs/heads/main/image/linhkien.jpg"  width="500"/> </p>
 
@@ -69,7 +69,7 @@ Bộ KIT được thiết kế cho người đã có kiến thức Arduino cơ b
 
 ### 2. Bộ KIT này khác gì so với Bộ KIT Arduino Plus?
 
-[Bộ KIT Học Tập Arduino Uno R3 BLK Plus](https://banlinhkien.com/bo-kit-hoc-tap-arduino-uno-r3-blk-plus-p38419270.html) giúp bạn làm quen với lập trình Arduino và các ngoại vi cơ bản. **Bộ KIT Học Tập Arduino I2C BLK** là cấp độ tiếp theo, tập trung vào giao tiếp I2C và xây dựng các hệ thống có nhiều cảm biến, module hoạt động đồng thời.
+[Bộ KIT Học Tập Arduino Uno R3 BLK Plus](https://banlinhkien.com/bo-kit-hoc-tap-arduino-uno-r3-blk-plus-p38419270.html) giúp bạn làm quen với lập trình Arduino và các ngoại vi cơ bản. **Bộ KIT Học Tập Arduino I2C PRO BLK** là cấp độ tiếp theo, tập trung vào giao tiếp I2C và xây dựng các hệ thống có nhiều cảm biến, module hoạt động đồng thời.
 ### 3. Tại sao bộ KIT sử dụng chuẩn kết nối I2C 4 dây?
 
 Chuẩn 4 dây (VCC, GND, SDA, SCL) giúp việc lắp ráp nhanh chóng, giảm sai sót khi đấu nối và dễ dàng mở rộng thêm thiết bị mà không cần sử dụng nhiều chân GPIO.
