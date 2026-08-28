@@ -1,10 +1,10 @@
 
-# <p align="center">  Bộ KIT Học Tập Arduino BLK Nano I2C PRO   </p>
+# <p align="center">  Bộ KIT Học Tập BLK Nano I2C PRO   </p>
 
 ###  Giới Thiệu
 
-- **Bộ KIT Học Tập Arduino BLK Nano I2C PRO** là bộ công cụ thực hành được xây dựng trên nền tảng vi điều khiển **Arduino Nano (ATmega328P)**, tập trung chuyên sâu vào giao thức giao tiếp **I2C (Inter-Integrated Circuit)**. 
-- Bộ KIT được thiết kế dành cho người dùng *đã nắm vững kiến thức lập trình Arduino nền tảng* như GPIO, Timer, PWM, ADC, ngắt (Interrupt) và giao tiếp UART/Serial cơ bản. Nếu bạn chưa có những kiến thức này, chúng tôi khuyến nghị bắt đầu với [Bộ KIT Học Tập Arduino BLK Uno R3 Plus](https://banlinhkien.com/bo-kit-hoc-tap-arduino-uno-r3-blk-plus-p38419270.html) để xây dựng nền tảng trước khi tiếp cận bộ KIT này. Trên cơ sở đó, **Bộ KIT Học Tập Arduino I2C PRO BLK** sẽ giúp bạn làm chủ giao thức giao tiếp I2C, kết nối đồng thời nhiều thiết bị trên cùng một bus truyền thông và phát triển các dự án hệ thống nhúng có tính thực tiễn cao.
+- **Bộ KIT Học Tập BLK Nano I2C PRO** là bộ công cụ thực hành được xây dựng trên nền tảng vi điều khiển **Arduino Nano (ATmega328P)**, tập trung chuyên sâu vào giao thức giao tiếp **I2C (Inter-Integrated Circuit)**. 
+- Bộ KIT được thiết kế dành cho người dùng *đã nắm vững kiến thức lập trình Arduino nền tảng* như GPIO, Timer, PWM, ADC, ngắt (Interrupt) và giao tiếp UART/Serial cơ bản. Nếu bạn chưa có những kiến thức này, chúng tôi khuyến nghị bắt đầu với [Bộ KIT Học Tập BLK Uno R3 Plus](https://banlinhkien.com/bo-kit-hoc-tap-arduino-uno-r3-blk-plus-p38419270.html) để xây dựng nền tảng trước khi tiếp cận bộ KIT này. Trên cơ sở đó, **Bộ KIT Học Tập Arduino I2C PRO BLK** sẽ giúp bạn làm chủ giao thức giao tiếp I2C, kết nối đồng thời nhiều thiết bị trên cùng một bus truyền thông và phát triển các dự án hệ thống nhúng có tính thực tiễn cao.
 
 <p align="center"> <img src="https://raw.githubusercontent.com/theduong6168/BLKLab/refs/heads/main/image/linhkien.jpg"  width="500"/> </p>
 
